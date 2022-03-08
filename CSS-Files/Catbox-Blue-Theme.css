@@ -1,0 +1,378 @@
+@-moz-document domain("catbox.moe") {
+body
+{
+	background-image: url();
+	background-color: #212121;
+	color: white;
+}
+
+.welcome
+{
+	color: #91adbd;
+}
+
+.welcomesub
+{
+	color: #91adbd;
+}
+
+.patreonProgressBarBacking
+{
+	background-color: #171717;
+	border-color: #697da0;
+}
+
+.patreonProgressBar
+{
+	background-color: #281d65;
+}
+
+ul li.home
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+ul li.torrent
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+a.linkbutton
+{
+	color: #91adbd;
+}
+
+a.linkbutton:hover
+{
+	color: #3db4f2
+}
+
+a.homebutton
+{
+	color: #91adbd;
+}
+
+a.homebutton:hover
+{
+	color: #3db4f2;
+}
+
+form.genericform
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+form.urlUploadForm
+{
+	background-color: black;
+}
+
+form.contact
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+form.dz-clickable
+{
+	background-image: url();
+	background-color: #697da0;
+	border-color: #697da0;
+}
+
+table
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+td
+{
+	border-color: #697da0;
+}
+
+form.dz-clickable:hover
+{
+
+	background-color: #3db4f2;
+	text-decoration: none;
+	outline: none;
+	transition: background-color 150ms linear;
+}
+
+div.dz-message
+{
+	color: white;
+}
+
+div.dz-preview
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+span.urlResponse
+{
+
+	background-color: #697da0;
+	border-color: #697da0;
+}
+
+span.urlResponse:hover
+{
+
+	background-color: #3db4f2;
+	text-decoration: none;
+	outline: none;
+	transition: background-color 150ms linear;
+}
+
+p.albumlink
+{
+	background-color: #697da0;
+	border-color: #697da0;
+}
+
+p.albumlink:hover
+{
+	background-color: #3db4f2;
+	text-decoration: none;
+	outline: none;
+	transition: background-color 150ms linear;
+}
+
+div.responseText
+{
+
+	background-color: #697da0;
+	border-color: #697da0;
+}
+
+div.responseText:hover
+{
+	background-color: #3db4f2;
+	text-decoration: none;
+	outline: none;
+	transition: background-color 150ms linear;
+}
+
+div.seeders
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+div.leechers
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+div.completed
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+
+input[type=submit]
+{
+	background-color: #697da0;
+	border-color: #201467;
+	color: white;
+}
+
+input[type=submit]:hover
+{
+	background-color: #3db4f2;
+	border-color: #201467;
+	color: white;
+}
+
+input[type=button]
+{
+	background-color: #697da0;
+	border-color: #201467;
+	color: white;
+}
+
+input[type=button]:hover
+{
+	background-color: #3db4f2;
+	border-color: #201467;
+	color: white;
+}
+
+input[type=text].stylized
+{
+	background-color: #3db4f2;
+	border-color: #201467;
+	color: white;
+}
+
+input[type=password]
+{
+	background-color: #3db4f2;
+	border-color: #201467;
+	color: white;
+}
+
+input[name=url]
+{
+	background-color: #3db4f2;
+	border-color: #201467;
+	color: white;
+}
+
+select
+{
+	background-color: #3db4f2;
+	border-color: #201467;
+	color: white;
+}
+
+textarea
+{
+	background-color: #3db4f2;
+	border-color: #201467;
+	color: white;
+}
+
+.hometab
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+	color: white;
+}
+
+button.urlUpSubmit
+{
+	background-color: #697da0;
+	border-color: #201467;
+	color: white;
+}
+
+button.urlUpSubmit:hover
+{
+	background-color: #3db4f2;
+}
+
+.legalSection
+{
+	background-color: #212121;
+}
+
+.legalRow
+{
+	color: black;
+}
+
+span.legalRowText
+{
+	background-color: #212121;
+	border: solid 1px #697da0;
+	color: #91adbd;
+}
+
+span.legalRowText.active
+{
+	color: white;
+	text-decoration: none;
+}
+
+
+.notenormal
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+.notesmall
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+.notetiny
+{
+	background-image: url();
+	background-color: #212121;
+	border-color: #697da0;
+}
+
+.notetinywarning
+{
+	background-image: url();
+	background-color: #212121;
+}
+
+div.contributor
+{
+	border-color: #697da0;
+	background-image: url();
+	background-color: rgb(33, 33, 33);
+}
+
+div.contributor > p > span
+{
+	color: #91adbd;
+}
+}
+
+@-moz-document domain("status.catbox.moe") {
+a
+{
+	color: #3db4f2;
+	text-decoration: none;
+}
+.siteHeader
+{
+	background: #161616;
+	border-bottom: 1px solid #282828;
+}
+.siteFooter
+{
+	background: #161616;
+	border-top: 1px solid #282828;
+}
+.siteFooter__nav li a
+{
+	color: #3db4f2;
+}
+li.serviceList__item:nth-child(1) > p:nth-child(1)
+{
+	color: #91adbd;
+}
+.serviceList__item:nth-child(even)
+{
+	background: #282828;
+}
+.serviceList__item
+{
+	border-bottom: 0;
+}
+.serviceList
+{
+	border: 5px solid #282828;
+	border-radius: 4px;
+}
+.serviceList__item:last-child
+{
+	border-radius: 0;
+}
+}
