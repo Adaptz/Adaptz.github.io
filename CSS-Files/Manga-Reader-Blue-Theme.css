@@ -1,0 +1,124 @@
+@-moz-document domain("mangareader.to") {
+#header #logo
+{
+    height: 50px;
+    width: 160px;
+    background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
+    background-size: cover;
+    background-position: center center;
+}
+#header.header-reader,
+#header .container
+{
+	background: #222222;
+}
+#footer .footer-logo
+{
+    height: 60px;
+    width: 192px;
+    background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
+    background-size: cover;
+    background-position: center center;
+}
+#header #logo img,
+#footer .footer-logo img
+{
+    width: 0px;
+    height: 0px;
+}
+body.darkmode .anis-content .anisc-detail .genres a:hover,
+body.darkmode .chapters-list-ul ul .item:hover a,
+body.darkmode .cmbg-wrap .item.active,
+body.darkmode .cmbg-wrap .item:hover,
+body.darkmode .profile-avatar .pa-edit,
+body.darkmode .sbs-text .sbst-row .sr-items a:hover,
+body.darkmode .cbox.cbox-list .featured-block-chart li .manga-detail .fdi-chapter a,
+body.darkmode .dwl-ul .dwl-item .on-chapt a,
+body.darkmode .inbox-item .highlight-text,
+body.darkmode .manga_list-sbs .mls-wrap .item .manga-detail .fd-list .fdl-item .chapter a,
+body.darkmode .news-article .news-title,
+body.darkmode .rtf-content .arrow i,
+body.darkmode .table_schedule .table_schedule-list li .manga-detail .fd-play .btn-play,
+body.darkmode .table_schedule .table_schedule-list li .time,
+body.darkmode a:hover,
+body.darkmode #sidebar_menu .sidebar_menu-list > .nav-item .nav > .nav-item > .nav-link:hover,
+body.darkmode #sidebar_menu .sidebar_menu-list > .nav-item > .nav-link:hover,
+body.darkmode .anw-tabs .nav-item .nav-link:hover,
+body.darkmode .cw_l-line .ibody p a.tag-name,
+body.darkmode .cw_l-line .ibottom .ib-li .btn.active,
+body.darkmode .cw_l-line .ibottom .ib-li .btn:hover,
+body.darkmode .featured-block-ul li .manga-detail .fd-infor .fdi-item.fdi-chapter a,
+body.darkmode .mr-ranking span,
+body.darkmode .read-tips .read-tips-follow .notice .highlight-text,
+body.darkmode .stx-center .stx-title,
+body.darkmode .checked-list li::before,
+body.darkmode .text-primary,
+body.darkmode .new-noti-list .nnl-mark a:hover,
+body.darkmode #header_menu .header_menu-sub ul.sub-menu li:hover a,
+body.darkmode .dropdown-menu-model .dropdown-item.active,
+body.darkmode .dropdown-menu-model .dropdown-item.added,
+body.darkmode .dropdown-menu-model .dropdown-item.selected,
+body.darkmode .dropdown-menu-model .dropdown-item:hover,
+body.darkmode .new-noti-list .nnl-item:hover,
+.fa-bookmark,
+body.darkmode .ctn-item .ctn-detail .manga-detail .reading-load .rl-text
+{
+    color: #3db4f2 !important;
+}
+body.darkmode #header,
+.chap-tabs .nav-item .nav-link.active,
+.chapters-list-ul ul .item a:hover::before,
+.chapters-list-ul ul .item.highlight .item-read,
+.chapters-list-ul ul .item:hover .item-read,
+body.darkmode .toggle-onoff.active span
+{
+    background: #3db4f2 !important;
+}
+.hr-notifications .hrn-icon,
+.more a,
+body.darkmode .pre-pagination .pagination .page-item.active .page-link,
+body.darkmode .menu-profiles li.active .mp-item,
+.pre-tabs-min .nav-item .nav-link.active,
+body.darkmode .toggle-onoff.active
+{
+    background: #056da3 !important
+}
+.s-tabs .nav-item .nav-link.active,
+.hr-notifications.show .hrn-icon
+{
+    color: #056da3 !important;
+}
+.anisc-info .block-rating,
+.chap-tabs
+{
+    border-color: #3db4f2 !important;
+}
+body.darkmode .s-tabs
+{
+    border-color: #a3d9f4;
+}
+.s-tabs .nav-item .nav-link.active
+{
+    background: #a3d9f4;
+}
+.chap-tabs .nav-item .nav-link.active,
+.s-tabs .nav-item .nav-link.active,
+.hr-notifications.show .hrn-icon,
+.mr-3
+{
+    color: #fff!important;
+}
+a.btn-primary {
+color: black !important;
+opacity: .8;
+}
+#header.header-reader
+{
+    background: #222 !important;
+}
+*
+{
+    scrollbar-color: #3db4f2 #202125;
+    scrollbar-width: thin;
+}
+}
