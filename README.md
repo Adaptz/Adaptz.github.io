@@ -1,6 +1,6 @@
 # Adap's Random CSS Stylesheets
 
-[Anilist CSS](https://adaptz.github.io/CSS-Files/Blue-Anilist-Theme.css)
+[Anilist CSS](https://adaptz.github.io/CSS-Files/Anilist/Blue-Anilist-Theme.css)
 
 [Catbox CSS](https://adaptz.github.io/CSS-Files/Catbox-Blue-Theme.css)
 
