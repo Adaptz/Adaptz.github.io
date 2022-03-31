@@ -159,7 +159,6 @@ ul.az-list li.active a,
 .player-servers .ps_-block .ps__-title i,
 .player-servers .ps_-block .small strong,
 span#AddMalDiv #AddMal,
-.pre-tabs-hashtag .nav-item .nav-link.active,
 .dwl-ul .dwl-item .on-chapt a,
 #discussion .pre-tabs .nav-item .nav-link.active,
 .player-time,
@@ -211,6 +210,10 @@ a:hover,
 	color: black !important;
 	opacity: .8;
 }
+.pre-tabs-hashtag .nav-item .nav-link.active
+{
+	color: black !important;
+}
 #search
 {
     width: 25%;
@@ -239,7 +242,8 @@ a:hover,
 {
     border-color: #3db4f2;
 }
-.cr-poster
+.cr-poster,
+.pre-tabs .nav-item .nav-link.active:hover
 {
 	border-color: black !important;
 }
