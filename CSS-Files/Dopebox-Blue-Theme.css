@@ -1,0 +1,70 @@
+@-moz-document domain("dopebox.to") {
+/* Changes Dopebox logos to be blue */
+
+#header #logo img,
+#xheader #xlogo img,
+#mw-home .mwh-logo .mwh-logo-div img
+{
+	height: 0;
+	width: 0;
+}
+#header #logo
+{
+	height: 30px;
+	width: 39.4667px;
+	background-image: url('https://files.catbox.moe/y4pons.png') !important;
+	background-size: cover;
+	left: 49.61%;
+}
+#xheader #xlogo
+{
+	height: 34px;
+	width: 44.7333px;
+	background-image: url('https://files.catbox.moe/y4pons.png') !important;
+	background-size: cover;
+}
+#mw-home .mwh-logo .mwh-logo-div
+{
+	height: 100px;
+	width: 131.583px;
+	background-image: url('https://files.catbox.moe/y4pons.png') !important;
+	background-size: cover;
+}
+a:hover,
+#slider .slide-caption .sc-btn .btn-circle i,
+.film-stats .imdb,
+.apdc-content .app-heading,
+.block_area .block_area-header .viewmore .btn:hover
+{
+	color: #3db4f2;
+}
+.pre-tabs .nav-item .nav-link.active
+{
+	color: #3db4f2 !important;
+}
+.mw-buttons .btn-primary,
+.dropdown-menu-model .dropdown-item.active, .pre-pagination .pagination .page-item.active .page-link,
+.btn-focus, .btn-primary,
+.btn-focus:hover, .btn-primary:hover
+{
+	background: #3db4f2 !important; 
+}
+#xsearch.home-search .search-content .search-submit
+{
+	background: #3db4f2; 	
+}
+#slider .slide-caption .sc-btn .btn-circle,
+.btn-focus, .btn-primary,
+.btn-focus:hover, .btn-primary:hover
+{
+	border-color: #3db4f2 !important;
+}
+.block_area .block_area-header .cat-heading
+{
+	border-color: #3db4f2;
+}
+.mw-buttons .btn-primary:hover 
+{
+	box-shadow: 0 0 20px rgba(61, 180, 242, .4) !important;
+}
+}
