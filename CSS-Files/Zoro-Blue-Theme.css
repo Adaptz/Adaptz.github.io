@@ -1,6 +1,4 @@
 @-moz-document url-prefix("https://zoro.to") {
-@import url("https://fonts.googleapis.com/css2?family=Material+Icons");
-
 /* Makes main zoro logos blue */
 
 #header #logo
@@ -37,27 +35,16 @@
 	height: 0px !important;
 }
 
-/* Watch2Gether Icon Changes */
+/* Watch2Gether icon changes */
 
+.zicon.zicon-live.mr-2,
 .hst-icon > .zicon.zicon-live,
 .hst-icon > .zicon.zicon-live:before
-{
-	background-image: none;
-	font-size: 29px;
-	font-style: normal;
-	font-family: "Material Icons";
-	font-weight: normal;
-	text-transform: none;
-	content: '\e51e';
-	color: #3db4f2;
-	margin-right: 12px;
-}
-.zicon.zicon-live.mr-2
 {
 	background-image: url('https://files.catbox.moe/13v5j3.svg') !important;
 }
 
-/* Makes MangaReader Icons Blue */
+/* Makes MangaReader icons blue and fixes positioning */
 
 .add-manga .add-manga-icon
 {
@@ -65,7 +52,7 @@
 	width: 26px;
 	background-image: url('https://files.catbox.moe/wtpo8s.png') !important;
 	background-size: cover;
-	background-position: center center;
+	margin-right: 10px;
 }
 .cr-title .manga-icon
 {
@@ -74,6 +61,16 @@
 	background-image: url('https://files.catbox.moe/wtpo8s.png') !important;
 	background-size: cover;
 	background-position: center center;
+}
+@media screen and (max-width: 1400px)
+{
+	.anis-watch-detail .anis-content .anisc-poster .add-manga .add-manga-icon
+	{
+		height: 20px;
+		width: 20px;
+		left: 23.4px;
+		position: relative;
+	}
 }
 
 /* When in full player mode one scroll fits the entire player *may vary for each user
@@ -84,9 +81,24 @@ If you have issues either delete this section or edit the width so it is correct
 	.layout-page-watchtv .anis-watch-wrap
 	{
 		top: 10px;
-		padding-top: 29px !important;
+		padding-top: 28px !important;
 	}
 }
+
+/* For watch now button on higher zoom ( dosesn't work :( ) */
+
+/* @media screen and (max-width: 1299px)
+{
+	.qtip,
+	.pre-qtip-content
+	{
+		display: unset !important;
+	}
+	.pre-qtip-description 
+	{
+		display: none;
+	}
+} */
 
 /* Random color changes to fit blue theme */
 
@@ -119,8 +131,7 @@ ul.az-list li.active a,
 .avatar-list .item .checked,
 #slider .sc-detail .scd-item .quality,
 .swiper-button:hover,
-.toggle-onoff > span,
-.premodal-manga .modal-content
+.toggle-onoff > span
 {
 	background: #3db4f2 !important;
 }
@@ -146,6 +157,10 @@ ul.az-list li.active a,
 {
 	background-color: #3db4f2!important
 }
+.premodal-manga .modal-content
+{
+	background: #35373d;
+}
 .highlight-text,
 #mobile_menu.active i,
 #mobile_search.active i,
@@ -159,7 +174,6 @@ ul.az-list li.active a,
 .btn-sm.nl-item-btn:hover,
 .btn-sm.btn-filter-item.active,
 .block_area .block_area-header .cat-heading,
-.pre-tabs .nav-item .nav-link:hover,
 .anw-tabs .nav-item .nav-link.active,
 .film-poster-ahref i,
 .film-poster-ahref:before,
@@ -216,7 +230,9 @@ span#AddMalDiv #AddMal,
 	color: #3db4f2 !important;
 }
 a:hover,
-.pre-tabs .nav-item .nav-link.active
+.pre-tabs .nav-item .nav-link.active,
+.premodal-manga .modal-content a:hover,
+.pre-tabs .nav-item .nav-link:hover
 {
 	color: #3db4f2;
 }
@@ -229,9 +245,7 @@ a:hover,
 .table_schedule .table_schedule-date .tsd-item.active,
 .btn-focus:hover,
 .btn-primary:hover,
-.btn-tab.active:hover,
-.premodal-manga .modal-content,
-.premodal-manga .modal-content a
+.btn-tab.active:hover
 {
 	color: black;
 }
@@ -239,9 +253,9 @@ a:hover,
 {
 	color: white;
 }
-.fav-tabs > .pre-tabs-min > .nav-item > .nav-link.active:hover
+.fav-tabs > .pre-tabs-min > .nav-item > .nav-link.active:hover,
+.pre-tabs .nav-item .nav-link.active:hover
 {
-	color: black !important;
 	opacity: .8;
 }
 .pre-tabs-hashtag .nav-item .nav-link.active
@@ -262,10 +276,6 @@ a:hover,
 .pre-tabs .nav-item .nav-link.active
 {
 	border-color: #3db4f2;
-}
-.cr-poster
-{
-	border-color: black !important;
 }
 .content-related .item .cr-desc
 {
