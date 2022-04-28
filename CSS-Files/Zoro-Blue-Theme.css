@@ -1,6 +1,5 @@
 @-moz-document url-prefix("https://zoro.to") {
 /* Makes main zoro logos blue */
-
 #header #logo
 {
 	height: 50px;
@@ -36,7 +35,6 @@
 }
 
 /* Watch2Gether icon changes */
-
 .zicon.zicon-live.mr-2,
 .hst-icon > .zicon.zicon-live,
 .hst-icon > .zicon.zicon-live:before
@@ -45,7 +43,6 @@
 }
 
 /* Makes MangaReader icons blue and fixes positioning */
-
 .add-manga .add-manga-icon
 {
 	height: 26px;
@@ -74,8 +71,7 @@
 }
 
 /* When in full player mode one scroll fits the entire player *may vary for each user
-If you have issues either delete this section or edit the width so it is correct for you */
-
+If you have issues either delete this section or edit the padding so it is correct for you */
 @media screen and (max-width: 1199px)
 {
 	.layout-page-watchtv .anis-watch-wrap
@@ -85,8 +81,15 @@ If you have issues either delete this section or edit the width so it is correct
 	}
 }
 
-/* For watch now button on higher zoom ( dosesn't work :( ) */
+@media screen and (max-width: 1400px)
+{
+	.hr-community
+	{
+		display: revert;
+	}
+}
 
+/* For watch now button on higher zoom ( dosesn't work :( ) */
 /* @media screen and (max-width: 1299px)
 {
 	.qtip,
@@ -99,9 +102,7 @@ If you have issues either delete this section or edit the width so it is correct
 		display: none;
 	}
 } */
-
 /* Random color changes to fit blue theme */
-
 #header_menu ul.header_menu-list .nav-item.active > a:before,
 #header_menu .header_menu-sub ul.sub-menu li:hover a,
 .pre-qtip-button .btn.btn-play,
@@ -153,7 +154,8 @@ ul.az-list li.active a,
 }
 .block-rating .rating-result .progress .progress-bar,
 #toast-container > div.toast-success,
-.cb-li .btn.btn-spoil.active i
+.cb-li .btn.btn-spoil.active i,
+.award-inner .ai_-tabs a.active::before
 {
 	background-color: #3db4f2!important
 }
@@ -232,12 +234,17 @@ span#AddMalDiv #AddMal,
 a:hover,
 .pre-tabs .nav-item .nav-link.active,
 .premodal-manga .modal-content a:hover,
-.pre-tabs .nav-item .nav-link:hover
+.pre-tabs .nav-item .nav-link:hover,
+.wv .wv-ul .item .item-name a,
+.wideview-grid .grid-item .item:hover .btn-blank,
+.cd-article .cda-bottom .btn:hover,
+.cd-article .cda-bottom .btn.active.btn-upvote
 {
 	color: #3db4f2;
 }
 #discussion .pre-tabs .nav-item .nav-link.active,
-.os-list .os-item.active
+.os-list .os-item.active,
+.wv-item .wv-loadmore .btn:hover
 {
 	color: #3db4f2 !important;
 	border-color: #3db4f2 !important;
@@ -245,7 +252,9 @@ a:hover,
 .table_schedule .table_schedule-date .tsd-item.active,
 .btn-focus:hover,
 .btn-primary:hover,
-.btn-tab.active:hover
+.btn-tab.active:hover,
+.hr-community .btn,
+.hr-donate .btn
 {
 	color: black;
 }
@@ -253,10 +262,14 @@ a:hover,
 {
 	color: white;
 }
+.content-related .item .cr-desc,
 .fav-tabs > .pre-tabs-min > .nav-item > .nav-link.active:hover,
-.pre-tabs .nav-item .nav-link.active:hover
+.pre-tabs .nav-item .nav-link.active:hover,
+#sidebar_menu .sidebar_menu-list > .nav-item > a.nav-link:hover,
+.premodal-manga .modal-content a:hover,
+#action-button:hover
 {
-	opacity: .8;
+	opacity: .9;
 }
 .pre-tabs-hashtag .nav-item .nav-link.active
 {
@@ -273,20 +286,27 @@ a:hover,
 }
 .choose-thumbnail .lv-list .item.active,
 .share-buttons .share-buttons-block .sbb-title,
-.pre-tabs .nav-item .nav-link.active
+.pre-tabs .nav-item .nav-link.active,
+.btn-sm.btn-filter-item.active
 {
 	border-color: #3db4f2;
 }
-.content-related .item .cr-desc
-{
-	opacity: .8;
-}
-
 /* Makes site scrollbars blue and thin  */
-
 *
 {
 	scrollbar-color: #3db4f2 #202125;
 	scrollbar-width: thin;
+}
+::-webkit-scrollbar
+{
+	width: 9px;
+}
+::-webkit-scrollbar-thumb
+{
+	background: #3db4f2;
+}
+::-webkit-scrollbar-track
+{
+	background: #202125;
 }
 }
