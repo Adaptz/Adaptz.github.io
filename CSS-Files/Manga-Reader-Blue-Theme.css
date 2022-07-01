@@ -1,35 +1,38 @@
 @-moz-document domain("mangareader.to") {
 #header #logo
 {
-    height: 50px;
-    width: 160px;
-    background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
-    background-size: cover;
-    background-position: center center;
-}
-#header.header-reader,
-#header .container
-{
-	background: #222222;
+	height: 50px;
+	width: 160px;
+	background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
+	background-size: cover;
+	background-position: center center;
 }
 #footer .footer-logo
 {
-    height: 60px;
-    width: 192px;
-    background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
-    background-size: cover;
-    background-position: center center;
+	height: 60px;
+	width: 192px;
+	background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
+	background-size: cover;
+	background-position: center center;
+}
+@media screen and (min-width: 1400px)
+{
+	#header.header-reader #logo
+	{
+		height: 47.5px;
+		width: 152px;
+		background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
+		background-size: cover;
+		background-position: center center;
+	}
 }
 #header #logo img,
-#footer .footer-logo img
+#footer .footer-logo img,
+#header.header-reader #logo img
 {
-    width: 0px;
-    height: 0px;
+	width: 0px;
+	height: 0px;
 }
-body.darkmode .anis-content .anisc-detail .genres a:hover,
-body.darkmode .chapters-list-ul ul .item:hover a,
-body.darkmode .cmbg-wrap .item.active,
-body.darkmode .cmbg-wrap .item:hover,
 body.darkmode .profile-avatar .pa-edit,
 body.darkmode .sbs-text .sbst-row .sr-items a:hover,
 body.darkmode .cbox.cbox-list .featured-block-chart li .manga-detail .fdi-chapter a,
@@ -52,73 +55,117 @@ body.darkmode .mr-ranking span,
 body.darkmode .read-tips .read-tips-follow .notice .highlight-text,
 body.darkmode .stx-center .stx-title,
 body.darkmode .checked-list li::before,
-body.darkmode .text-primary,
-body.darkmode .new-noti-list .nnl-mark a:hover,
-body.darkmode #header_menu .header_menu-sub ul.sub-menu li:hover a,
-body.darkmode .dropdown-menu-model .dropdown-item.active,
-body.darkmode .dropdown-menu-model .dropdown-item.added,
-body.darkmode .dropdown-menu-model .dropdown-item.selected,
-body.darkmode .dropdown-menu-model .dropdown-item:hover,
-body.darkmode .new-noti-list .nnl-item:hover,
 .fa-bookmark,
-body.darkmode .ctn-item .ctn-detail .manga-detail .reading-load .rl-text
+body.darkmode .ctn-item .ctn-detail .manga-detail .reading-load .rl-text,
+body.darkmode .xhashtag .item:hover
 {
-    color: #3db4f2 !important;
+	color: #83d1ff;
 }
-body.darkmode #header,
-.chap-tabs .nav-item .nav-link.active,
+body.darkmode #discussion .pre-tabs .nav-item .nav-link.active,
+body.darkmode .dropdown-menu-model .dropdown-item.active,
+body.darkmode .chapters-list-ul ul .item:hover a,
+body.darkmode .cbox.cbox-list .featured-block-chart li.item-top .ranking-number span,
+body.darkmode .link-highlight,
+body.darkmode #header_menu .header_menu-sub ul.sub-menu li:hover a,
+body.darkmode .mg-item-basic .fd-infor a:hover,
+body.darkmode .dropdown-menu-model .dropdown-item.added,
+body.darkmode .dropdown-menu-model .dropdown-item:hover,
+body.darkmode .new-noti-list .nnl-mark a:hover,
+body.darkmode .new-noti-list .nnl-item:hover,
+body.darkmode .cmbg-wrap .item:hover,
+body.darkmode .cmbg-wrap .item.active,
+body.darkmode .text-primary,
+body.darkmode .checked-list li::before,
+body.darkmode .anis-content .anisc-detail .genres a:hover
+{
+	color: #83d1ff !important;
+}
 .chapters-list-ul ul .item a:hover::before,
 .chapters-list-ul ul .item.highlight .item-read,
-.chapters-list-ul ul .item:hover .item-read,
 body.darkmode .toggle-onoff.active span
 {
-    background: #3db4f2 !important;
+	background: #83d1ff;
+}
+.anisc-info .block-rating,
+.chap-tabs,
+body.darkmode .s-tabs
+{
+	border-color: #83d1ff;
+}
+body.darkmode #discussion .pre-tabs .nav-item .nav-link.active
+{
+	border-color: #83d1ff !important;
+}
+.search-content .filter-icon,
+.s-tabs .nav-item .nav-link.active
+{
+	background: #e5f6ff;
 }
 .hr-notifications .hrn-icon,
 .more a,
-body.darkmode .pre-pagination .pagination .page-item.active .page-link,
 body.darkmode .menu-profiles li.active .mp-item,
+body.darkmode .toggle-onoff.active,
+#sub-header,
+body.darkmode .anw-tabs.active,
+.anw-tabs .nav-item .nav-link.active,
+.search-content .filter-icon:hover,
+.chap-tabs .nav-item .nav-link.active
+{
+	background: #005f97;
+}
+.chapters-list-ul ul .item.active a,
 .pre-tabs-min .nav-item .nav-link.active,
-body.darkmode .toggle-onoff.active
+body.darkmode .pre-pagination .pagination .page-item.active .page-link,
+.btn-focus,
+.btn-focus:hover,
+.chapters-list-ul ul .item:hover .item-read
 {
-    background: #056da3 !important
+	background: #005f97 !important;
 }
-.s-tabs .nav-item .nav-link.active,
-.hr-notifications.show .hrn-icon
-{
-    color: #056da3 !important;
-}
-.anisc-info .block-rating,
-.chap-tabs
-{
-    border-color: #3db4f2 !important;
-}
-body.darkmode .s-tabs
-{
-    border-color: #a3d9f4;
-}
-.s-tabs .nav-item .nav-link.active
-{
-    background: #a3d9f4;
-}
-.chap-tabs .nav-item .nav-link.active,
 .s-tabs .nav-item .nav-link.active,
 .hr-notifications.show .hrn-icon,
-.mr-3
+.cbox.cbox-list .featured-block-chart li:hover .ranking-number span,
+.search-content .filter-icon,
+.anis-content .anisc-detail .manga-buttons .btn-fav:hover i,
+.anis-content .anisc-detail .manga-buttons .btn-fav.active i
 {
-    color: #fff!important;
+	color: #005f97;
 }
-a.btn-primary {
-color: black !important;
-opacity: .8;
+.btn-focus,
+.btn-focus:hover,
+.chap-tabs,
+.anisc-info .block-rating
+{
+	border-color: #005f97 !important;
+}
+.anis-content .anisc-detail .manga-buttons .btn-fav:hover i
+{
+	color: #006fb1;
+}
+body.darkmode #header
+{
+	background: #006fb1;
+}
+#toast-container > div.toast-success
+{
+	background-color: #006fb1 !important;
+}
+.search-content .filter-icon:hover
+{
+	color: #fff;
+}
+a.btn-primary
+{
+	color: black;
+	opacity: .8;
 }
 #header.header-reader
 {
-    background: #222 !important;
+	background: #222;
 }
 *
 {
-    scrollbar-color: #3db4f2 #202125;
-    scrollbar-width: thin;
+	scrollbar-color: #3db4f2 #202125;
+	scrollbar-width: thin;
 }
 }
