@@ -34,7 +34,6 @@
 	height: 0px;
 }
 body.darkmode .profile-avatar .pa-edit,
-body.darkmode .sbs-text .sbst-row .sr-items a:hover,
 body.darkmode .cbox.cbox-list .featured-block-chart li .manga-detail .fdi-chapter a,
 body.darkmode .dwl-ul .dwl-item .on-chapt a,
 body.darkmode .inbox-item .highlight-text,
@@ -76,13 +75,15 @@ body.darkmode .cmbg-wrap .item:hover,
 body.darkmode .cmbg-wrap .item.active,
 body.darkmode .text-primary,
 body.darkmode .checked-list li::before,
-body.darkmode .anis-content .anisc-detail .genres a:hover
+body.darkmode .anis-content .anisc-detail .genres a:hover,
+body.darkmode .sbs-text .sbst-row .sr-items a:hover
 {
 	color: #83d1ff !important;
 }
 .chapters-list-ul ul .item a:hover::before,
 .chapters-list-ul ul .item.highlight .item-read,
-body.darkmode .toggle-onoff.active span
+body.darkmode .toggle-onoff.active span,
+body.darkmode .cb-li .btn.btn-spoil.active i
 {
 	background: #83d1ff;
 }
@@ -118,7 +119,9 @@ body.darkmode .anw-tabs.active,
 body.darkmode .pre-pagination .pagination .page-item.active .page-link,
 .btn-focus,
 .btn-focus:hover,
-.chapters-list-ul ul .item:hover .item-read
+.chapters-list-ul ul .item:hover .item-read,
+.comment-input .ci-buttons .btn-primary,
+.block-rating
 {
 	background: #005f97 !important;
 }
