@@ -33,7 +33,6 @@
 	width: 0px;
 	height: 0px;
 }
-body.darkmode .profile-avatar .pa-edit,
 body.darkmode .cbox.cbox-list .featured-block-chart li .manga-detail .fdi-chapter a,
 body.darkmode .dwl-ul .dwl-item .on-chapt a,
 body.darkmode .inbox-item .highlight-text,
@@ -76,7 +75,9 @@ body.darkmode .cmbg-wrap .item.active,
 body.darkmode .text-primary,
 body.darkmode .checked-list li::before,
 body.darkmode .anis-content .anisc-detail .genres a:hover,
-body.darkmode .sbs-text .sbst-row .sr-items a:hover
+body.darkmode .sbs-text .sbst-row .sr-items a:hover,
+body.darkmode .profile-avatar .pa-edit,
+.pre-tabs-hashtag .nav-item .nav-link.active
 {
 	color: #83d1ff !important;
 }
@@ -86,6 +87,10 @@ body.darkmode .toggle-onoff.active span,
 body.darkmode .cb-li .btn.btn-spoil.active i
 {
 	background: #83d1ff;
+}
+body.darkmode .premodal .btn.btn-primary
+{
+	background-color: #83d1ff !important;
 }
 .anisc-info .block-rating,
 .chap-tabs,
@@ -102,15 +107,20 @@ body.darkmode #discussion .pre-tabs .nav-item .nav-link.active
 {
 	background: #e5f6ff;
 }
+.premodal .btn.btn-secondary
+{
+	background: #e5f6ff !important;
+}
 .hr-notifications .hrn-icon,
 .more a,
-body.darkmode .menu-profiles li.active .mp-item,
 body.darkmode .toggle-onoff.active,
 #sub-header,
 body.darkmode .anw-tabs.active,
 .anw-tabs .nav-item .nav-link.active,
 .search-content .filter-icon:hover,
-.chap-tabs .nav-item .nav-link.active
+.chap-tabs .nav-item .nav-link.active,
+.block-rating,
+.more a:hover
 {
 	background: #005f97;
 }
@@ -121,18 +131,22 @@ body.darkmode .pre-pagination .pagination .page-item.active .page-link,
 .btn-focus:hover,
 .chapters-list-ul ul .item:hover .item-read,
 .comment-input .ci-buttons .btn-primary,
-.block-rating
+body.darkmode .menu-profiles li.active .mp-item
 {
 	background: #005f97 !important;
 }
 .s-tabs .nav-item .nav-link.active,
 .hr-notifications.show .hrn-icon,
 .cbox.cbox-list .featured-block-chart li:hover .ranking-number span,
-.search-content .filter-icon,
 .anis-content .anisc-detail .manga-buttons .btn-fav:hover i,
-.anis-content .anisc-detail .manga-buttons .btn-fav.active i
+.anis-content .anisc-detail .manga-buttons .btn-fav.active i,
+.search-content .filter-icon
 {
 	color: #005f97;
+}
+.premodal .btn.btn-secondary
+{
+	color: #005f97 !important;
 }
 .btn-focus,
 .btn-focus:hover,
@@ -161,6 +175,10 @@ a.btn-primary
 {
 	color: black;
 	opacity: .8;
+}
+.fa, .far, .fas
+{
+	color: revert;
 }
 #header.header-reader
 {
