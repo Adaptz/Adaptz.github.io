@@ -180,6 +180,10 @@ a.btn-primary
 {
 	color: revert;
 }
+.block-rating .rated
+{
+	background: revert;
+}
 #header.header-reader
 {
 	background: #222;
