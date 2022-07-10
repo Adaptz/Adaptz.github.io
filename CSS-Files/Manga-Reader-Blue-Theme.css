@@ -3,7 +3,7 @@
 {
 	height: 50px;
 	width: 160px;
-	background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
+	background-image: url('https://files.catbox.moe/do9vmv.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -11,7 +11,7 @@
 {
 	height: 60px;
 	width: 192px;
-	background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
+	background-image: url('https://files.catbox.moe/do9vmv.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -21,7 +21,7 @@
 	{
 		height: 47.5px;
 		width: 152px;
-		background-image: url('https://files.catbox.moe/g5p7ep.png') !important;
+		background-image: url('https://files.catbox.moe/do9vmv.png') !important;
 		background-size: cover;
 		background-position: center center;
 	}
@@ -55,7 +55,8 @@ body.darkmode .stx-center .stx-title,
 body.darkmode .checked-list li::before,
 .fa-bookmark,
 body.darkmode .ctn-item .ctn-detail .manga-detail .reading-load .rl-text,
-body.darkmode .xhashtag .item:hover
+body.darkmode .xhashtag .item:hover,
+.trending-navi > div > i
 {
 	color: #83d1ff;
 }
@@ -163,6 +164,14 @@ body.darkmode #header
 {
 	background: #006fb1;
 }
+@media screen and (max-width: 1299px)
+{
+	body.darkmode #header.home-header,
+	body.darkmode #search
+	{
+		background: #006fb1;
+	}
+}
 #toast-container > div.toast-success
 {
 	background-color: #006fb1 !important;
@@ -176,7 +185,9 @@ a.btn-primary
 	color: black;
 	opacity: .8;
 }
-.fa, .far, .fas
+.fa,
+.far,
+.fas
 {
 	color: revert;
 }
@@ -190,7 +201,7 @@ a.btn-primary
 }
 *
 {
-	scrollbar-color: #3db4f2 #202125;
+	scrollbar-color: #005f97 #1f1f1f;
 	scrollbar-width: thin;
 }
 }
