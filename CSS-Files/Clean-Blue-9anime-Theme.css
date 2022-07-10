@@ -1,6 +1,6 @@
 @-moz-document url-prefix("https://9anime") {
-/* 9anime has horrid CSS so I couldn't be bothered to do it from scratch
-(I've already deleted 8/10 of the garbage CSS) */
+/* 9anime has crazy CSS so I couldn't be bothered to do it from scratch
+(I've already deleted 8/10 of the non-essential CSS) */
 
 .dropdown-menu > li > label
 {
@@ -2335,10 +2335,16 @@ header #search form button:hover
 {
 	background: #2a2c31;
 }
-#slider .item .info .watch
+#slider .item .info .watch,
+.tooltipster-sidetip .tooltipster-box .tooltipster-content .watch
 {
 	background: #3db4f2;
 	color: #212121;
+}
+.tooltipster-sidetip .tooltipster-box .tooltipster-content .watch:hover
+{
+	color: black;
+	background: rgba(4, 159, 223,.8);
 }
 #slider .item .info .watch:hover
 {
@@ -3573,7 +3579,7 @@ section#info .tags a:hover
 .userpage .sidebar .menu li a.active
 {
 	background: #3db4f2;
-	color: #fff
+	color: black;
 }
 .userpage .form h4,
 .userpage .form h5,
@@ -4165,7 +4171,8 @@ section.schedulefull .days .day .items .item .name .ep
 	font-size: 1.2em;
 	cursor: pointer
 }
-.tooltipster-sidetip .tooltipster-box .tooltipster-content .tags
+.tooltipster-sidetip .tooltipster-box .tooltipster-content .tags,
+
 {
 	background: #212121;
 }
@@ -4249,6 +4256,24 @@ ul.anime-list-s li .info a:hover,
 	background-color: #202125;
 	color: #fff
 }
+.dropdown-menu {
+  background-color: #262626;
+}
+
+.dropdown-item {
+  color: #d5d5d5;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #d5d5d5;
+  background-color: #2d2d2d;
+}
+
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:focus, .dropdown-item:hover {
+  background: #2d2d2d;
+	box-shadow: 0 0 5px 3px #2d2d2d;
+}
+
 .alert-warning
 {
 	display: none;
