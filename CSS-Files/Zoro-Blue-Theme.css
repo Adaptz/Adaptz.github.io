@@ -2,8 +2,8 @@
 /* Makes main zoro logos blue */
 #header #logo
 {
-	height: 50px;
-	width: 165px;
+	height: 40px;
+	width: 132px;
 	background-image: url('https://files.catbox.moe/74pq45.png') !important;
 	background-size: cover;
 	background-position: center center;
@@ -24,11 +24,20 @@
 	background-size: cover;
 	background-position: center center;
 }
+#discussion .d_w-icon
+{
+	height: 400px;
+	width: 400px;
+	background-image: url('https://files.catbox.moe/qxcglq.png') !important;
+	background-size: cover;
+	background-position: center center;
+}
 #footer .footer-logo img,
 #header #logo img,
 #mw-top .mwh-logo .mwh-logo-div img,
 .add-manga .add-manga-icon img,
-.cr-title .manga-icon img
+.cr-title .manga-icon img,
+#discussion .d_w-icon img
 {
 	width: 0px !important;
 	height: 0px !important;
@@ -47,7 +56,7 @@
 {
 	height: 26px;
 	width: 26px;
-	background-image: url('https://files.catbox.moe/wtpo8s.png') !important;
+	background-image: url('https://files.catbox.moe/8kw6lw.png') !important;
 	background-size: cover;
 	margin-right: 10px;
 }
@@ -55,7 +64,7 @@
 {
 	height: 24px;
 	width: 24px;
-	background-image: url('https://files.catbox.moe/wtpo8s.png') !important;
+	background-image: url('https://files.catbox.moe/8kw6lw.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -76,19 +85,9 @@ If you have issues either delete this section or edit the padding so it is corre
 {
 	.layout-page-watchtv .anis-watch-wrap
 	{
-		top: 10px;
-		padding-top: 28px !important;
+		padding-top: 38px !important;
 	}
 }
-
-@media screen and (max-width: 1400px)
-{
-	.hr-community
-	{
-		display: revert;
-	}
-}
-
 /* For watch now button on higher zoom ( dosesn't work :( ) */
 /* @media screen and (max-width: 1299px)
 {
@@ -238,7 +237,8 @@ a:hover,
 .wv .wv-ul .item .item-name a,
 .wideview-grid .grid-item .item:hover .btn-blank,
 .cd-article .cda-bottom .btn:hover,
-.cd-article .cda-bottom .btn.active.btn-upvote
+.cd-article .cda-bottom .btn.active.btn-upvote,
+.hr-community .btn i
 {
 	color: #3db4f2;
 }
@@ -253,7 +253,6 @@ a:hover,
 .btn-focus:hover,
 .btn-primary:hover,
 .btn-tab.active:hover,
-.hr-community .btn,
 .hr-donate .btn
 {
 	color: black;
@@ -262,16 +261,23 @@ a:hover,
 {
 	color: white;
 }
+.chatbox_-room .item.item-alert .alert strong
+{
+	color: #83d1ff;
+}
 .content-related .item .cr-desc,
 .fav-tabs > .pre-tabs-min > .nav-item > .nav-link.active:hover,
 .pre-tabs .nav-item .nav-link.active:hover,
 #sidebar_menu .sidebar_menu-list > .nav-item > a.nav-link:hover,
 .premodal-manga .modal-content a:hover,
-#action-button:hover
+#action-button:hover,
+.pre-pagination .pagination .page-item.active .page-link:hover,
+.pre-qtip-button .btn.btn-play:hover
 {
 	opacity: .9;
 }
-.pre-tabs-hashtag .nav-item .nav-link.active
+.pre-tabs-hashtag .nav-item .nav-link.active,
+.pre-pagination .pagination .page-item.active .page-link:hover
 {
 	color: black !important;
 }
@@ -290,6 +296,10 @@ a:hover,
 .btn-sm.btn-filter-item.active
 {
 	border-color: #3db4f2;
+}
+.nav-tabs-simple .nav-link.active
+{
+	border-color: #3db4f2 !important;
 }
 /* Makes site scrollbars blue and thin  */
 *
