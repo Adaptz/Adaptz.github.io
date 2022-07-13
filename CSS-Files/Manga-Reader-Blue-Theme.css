@@ -172,7 +172,8 @@ body.darkmode #header
 		background: #006fb1;
 	}
 }
-#toast-container > div.toast-success
+#toast-container > div.toast-success,
+.loading > div
 {
 	background-color: #006fb1 !important;
 }
