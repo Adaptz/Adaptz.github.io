@@ -198,7 +198,7 @@
     width: 0;
     height: 0;
     padding: 125px;
-    background: url("https://i.imgur.com/d6gyMtt.png");
+    background: url("https://i.imgur.com/AfQCaAr.gif");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 43% 55%;
@@ -266,15 +266,15 @@
 }
 .banner-content:hover > .avatar
 {
-    background: url("https://i.imgur.com/d6gyMtt.png");
     transform: scale(1.1);
     width: 0;
     height: 0;
     padding: 125px;
     filter: brightness(110%);
+    background: url("https://i.imgur.com/AfQCaAr.gif");
     background-size: 125%;
     background-repeat: no-repeat;
-    background-position: 43% 0%;
+    background-position: 47% 0%;
     border-radius: 150%;
 }
 .banner-content:hover > .follower-badge
