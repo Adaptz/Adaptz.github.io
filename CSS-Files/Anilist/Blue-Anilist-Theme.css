@@ -264,7 +264,7 @@
     background: none;
     box-shadow: none;
 }
-.banner-content:hover > .avatar
+.banner > .container:hover > .banner-content > .avatar
 {
     transform: scale(1.1);
     width: 0;
