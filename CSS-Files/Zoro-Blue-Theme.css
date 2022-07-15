@@ -2,8 +2,8 @@
 /* Makes main zoro logos blue */
 #header #logo
 {
-	height: 40px;
-	width: 132px;
+	height: 50px;
+	width: 165px;
 	background-image: url('https://files.catbox.moe/74pq45.png') !important;
 	background-size: cover;
 	background-position: center center;
@@ -46,9 +46,61 @@
 /* Watch2Gether icon changes */
 .zicon.zicon-live.mr-2,
 .hst-icon > .zicon.zicon-live,
-.hst-icon > .zicon.zicon-live:before
+.hst-icon > .zicon.zicon-live:before,
+.zicon.zicon-live
 {
 	background-image: url('https://files.catbox.moe/13v5j3.svg') !important;
+}
+
+/* Watch2Gether UI changes */
+body.livestream_body #header,
+body.livestream_body #search,
+.premodal-newroom .modal-dialog .modal-content
+{
+	background: rgb(30, 31, 32) !important;
+}
+.livestream_body,
+.livestream_body.livestream_body-watch
+{
+	background: rgb(16, 17, 18) url("https://files.catbox.moe/gn77rr.jpg") bottom center repeat-x !important;
+}
+.ls__-share .share-buttons.share-buttons-detail,
+.ls__-share
+{
+	background-color: rgb(18, 18, 18) !important;
+}
+.ls___-detail
+{
+	background: rgb(28, 28, 28);
+}
+.ls___-animeinfo .ls____-content
+{
+	background: rgb(26, 26, 26)
+}
+.ls___-chatbox,
+.ls___-chatbox .chatbox_wrap .chatbox_-input
+{
+	background: rgb(15, 15, 15)
+}
+.chatbox_-room .item.item-user,
+.ls___-chatbox .chatbox_wrap .chatbox_-input .form-control-textarea
+{
+	background: rgb(40, 40, 40);
+}
+.ls___-chatbox .chatbox_wrap .chatbox_-input .form-control-textarea::placeholder,
+.chatbox_-room .item.item-user,
+.chatbox__-form .chatbox___-emo .cb-icon,
+.ls___-chatbox .chatbox_wrap .chatbox_-input .chatbox__-btn .btn.btn-blank
+{
+	color: #e5f6ff;
+}
+.livestream_body #footer
+{
+	background: rgb(30, 31, 32);
+}
+.livestream_body .modal-backdrop.show
+{
+	background: #111;
 }
 
 /* Makes MangaReader icons blue and fixes positioning */
@@ -154,9 +206,10 @@ ul.az-list li.active a,
 .block-rating .rating-result .progress .progress-bar,
 #toast-container > div.toast-success,
 .cb-li .btn.btn-spoil.active i,
-.award-inner .ai_-tabs a.active::before
+.award-inner .ai_-tabs a.active::before,
+.loading > div
 {
-	background-color: #3db4f2!important
+	background-color: #3db4f2 !important;
 }
 .premodal-manga .modal-content
 {
