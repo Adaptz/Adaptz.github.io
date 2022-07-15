@@ -2,6 +2,14 @@
 /* Makes main zoro logos blue */
 #header #logo
 {
+	height: 40px;
+	width: 132px;
+	background-image: url('https://files.catbox.moe/74pq45.png') !important;
+	background-size: cover;
+	background-position: center center;
+}
+.livestream_body #header #logo
+{
 	height: 50px;
 	width: 165px;
 	background-image: url('https://files.catbox.moe/74pq45.png') !important;
