@@ -157,7 +157,7 @@
 }
 .nav .wrap .search:hover svg
 {
-    background: url(https://media1.tenor.com/images/d944a23b90536e40fe0b9eca8c3f2501/tenor.gif);
+    background: url(https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Monke%20Lick.gif);
     background-repeat: no-repeat;
     background-size: contain;
     color: rgba(0, 0, 0, 0);
@@ -198,7 +198,7 @@
     width: 0;
     height: 0;
     padding: 125px;
-    background: url("https://i.imgur.com/AfQCaAr.gif");
+    background: url("https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Gintoki%203%20Tranparent%20pfp.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 43% 55%;
@@ -271,7 +271,7 @@
     height: 0;
     padding: 125px;
     filter: brightness(110%);
-    background: url("https://i.imgur.com/AfQCaAr.gif");
+    background: url("https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Transparent%20Gintoki%20Animation%20pfp.gif");
     background-size: 125%;
     background-repeat: no-repeat;
     background-position: 47% 0%;
@@ -314,7 +314,7 @@
 {
     transition: transform .7s ease-in-out;
     visibility: visible;
-    content: url(https://i.imgur.com/RnRf8fF.gif);
+    content: url(https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Come%20Slide%20me%20a%20Message!-2.gif);
     background: rgb(21, 31, 46, 0.8);
     border-radius: 20px;
     border: 2px solid #3db4f2;
@@ -366,21 +366,21 @@
 .history-day.lv-2,
 .history-day.lv-3
 {
-    content: url(https://i.imgur.com/bnEYXMI.png);
+    content: url(https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Gintoki%20Chibi%20Head.png);
     animation: rotation 20s infinite linear;
 }
 .history-day.lv-4,
 .history-day.lv-5,
 .history-day.lv-6
 {
-    content: url(https://i.imgur.com/Q1swHWO.png);
+    content: url(https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Sleepy%20Gintoki%20Chibi%20Head.png);
     animation: rotation 10s infinite linear;
 }
 .history-day.lv-7,
 .history-day.lv-8,
 .history-day.lv-9
 {
-    content: url(https://i.imgur.com/DR9HJ5l.png);
+    content: url(https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Gintoki%20Chibi%20Christmas%20Head.png);
     animation: rotation 5s infinite linear;
 }
 .activity-history.content-wrap > .history-day
@@ -653,7 +653,7 @@ a.character:nth-child(2)
 .overview > .section > .about > .content-wrap > .markdown b[href="overlay"] > b[href="list"] > a:nth-of-type(1)::after
 {
     content: 'aaaaa';
-    background-image: url(https://i.imgur.com/MzAg5rl.png);
+    background-image: url(https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Blue%20Discord%20Logo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -953,7 +953,7 @@ a:-webkit-any-link
 /* Background image (change the URL to change the image) */
 body
 {
-    background: rgb(var(--color-background)) url("https://i.imgur.com/QRYh3LY.gif") top/100% fixed;
+    background: rgb(var(--color-background)) url("https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/City%20Lights.gif") top/100% fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
