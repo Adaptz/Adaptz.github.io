@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://anilist.co/user/Adap/"), url-prefix("https://anilist.co/user/Adaz/"), url-prefix("https://anilist.co/home/"), url-prefix("https://anilist.co/user/AFuckingWeeb/"), url-prefix("https://anilist.co/notifications") {
 /* Imports Icons/Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons");
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
@@ -248,9 +249,10 @@
     color: rgb(21, 31, 46);
     background: #3db4f2 !important;
 }
-.banner-content:hover > .actions > .nav-btn
+.container:hover > .banner-content > .actions > .nav-btn
 {
     visibility: revert;
+	transform: translateX(192px);
     width: 84.14px;
     transition: all 1s ease-in-out;
     overflow: hidden;
@@ -264,7 +266,7 @@
     background: none;
     box-shadow: none;
 }
-.banner > .container:hover > .banner-content > .avatar
+.banner-content > .avatar:hover
 {
     transform: scale(1.1);
     width: 0;
@@ -273,11 +275,12 @@
     filter: brightness(110%);
     background: url("https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Transparent%20Gintoki%20Animation%20pfp.gif");
     background-size: 125%;
+	
     background-repeat: no-repeat;
     background-position: 47% 0%;
     border-radius: 150%;
 }
-.banner-content:hover > .follower-badge
+.container:hover > .banner-content > .follower-badge
 {
     visibility: revert;
     transform: translateX(-200px);
@@ -290,11 +293,6 @@
     left: 47.2%;
     border: 2px solid rgb(21, 31, 46);
     background: #3db4f2 !important;
-}
-.banner-content:hover > .actions
-{
-    visibility: revert;
-    transform: translateX(220px);
 }
 .banner-content:hover > .name
 {
@@ -957,4 +955,5 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
+}
 }
