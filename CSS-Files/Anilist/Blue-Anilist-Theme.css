@@ -164,6 +164,15 @@
     transform: scale(10) translate(0px, 13px) !important;
     transition: .5s ease-in-out;
 }
+.quick-search
+{
+    left: revert!important;
+}
+.quick-search > .input,
+.results > .result-col
+{
+    background: rgb(26, 26, 32);
+}
 /* Changes Profile Font */
 *
 {
