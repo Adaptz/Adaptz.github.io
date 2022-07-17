@@ -1,4 +1,3 @@
-@-moz-document url-prefix("https://anilist.co/user/Adap/"), url-prefix("https://anilist.co/home/"),  url-prefix("https://anilist.co/notifications") {
 /* Imports Icons/Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Material+Icons");
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
@@ -955,5 +954,4 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-}
 }
