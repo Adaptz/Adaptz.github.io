@@ -189,10 +189,13 @@
     justify-content: center;
     margin-top: 90px;
 }
-.actions > .nav-btn.donator-badge,
-.profile-btn
+.actions > .nav-btn.donator-badge
 {
     display: none;
+}
+.profile-btn
+{
+    display: none !important;
 }
 .container > .banner-content
 {
@@ -501,6 +504,10 @@ div.link:nth-child(2)
 [href="/user/AFuckingWeeb/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after
 {
     content: 'Don 🥶';
+}
+.markdown blockquote 
+{
+    background: rgb(20, 20, 20);
 }
 /* Creates Animation for Text Beside Name */
 .header > a ~ a::after
