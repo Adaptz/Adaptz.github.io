@@ -525,11 +525,11 @@ div.link:nth-child(2)
     animation-timing-function: ease-in-out;
 }
 /* Makes Chika Image Better Because Mods Won't Accept Submissions */
-a.character:nth-child(1)
+a.character:nth-child(5)
 {
     background-image: url("https://i.imgur.com/14oE0wd.jpg") !important;
 }
-a.character:nth-child(2)
+a.character:nth-child(1)
 {
     background-image: url("https://i.imgur.com/esLELuk.png") !important;
 }
