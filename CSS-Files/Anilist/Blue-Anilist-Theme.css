@@ -883,7 +883,7 @@ a:-webkit-any-link
     margin-right: auto;
     margin-left: auto;
     padding: 30px 30px;
-    background: rgb(28, 26, 29, .4);
+    background: rgb(28, 26, 29, .875);
     border-radius: 0 0 20px 20px;
 }
 .section-header > .el-dropdown
