@@ -964,9 +964,11 @@ a:-webkit-any-link
     color: #86e1f7 !important;
     border-bottom: solid #86e1f7 4px;
 }
-/* Background image (change the URL to change the image) */
+/* Background*/
 body
 {
-    background: rgba(0, 0, 0, 0) url("https://i.imgur.com/gvBTKrF.gif") repeat scroll 0% 0%;
-    background-size: 100px;
+    background: rgb(133, 214, 245) no-repeat fixed;
+    background-image:  url('https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Gintoki%20x%20Sadharu%20Edited-Optimized.gif'),
+	    url('https://raw.githubusercontent.com/Adaptz/Adaptz.github.io/main/CSS-Files/Anilist/Anilist-Images/Gintoki%20x%20Sadharu%20Edited-Optimized%20Inverted.gif');
+    background-position: left center, right center;
 }
