@@ -1,7 +1,19 @@
-@-moz-document domain("9anime.id") {
+@-moz-document url-prefix("https://9anime") {
+:root
+{
+    --blue: #3db4f2;
+    /* Main Blue Color */
+    --lightblue: #83d1ff;
+    /* Secondary Blue Color */
+    --darkblue: #0e7099;
+    /* Blue for Dark Hover */
+    --white: #dedede;
+    /* Site Default White/Bright Text */
+    --grey: #666/* Site Default Grey/Dark Text */
+}
 .logo
 {
-    background-image: url(https://i.imgur.com/PEiwr0b.png);
+    background-image: url(https://i.imgur.com/2KZN7GF.png);
 }
 section#schedule .head
 {
@@ -19,11 +31,23 @@ footer .container
 {
     background-image: url(https://i.imgur.com/wTuQbAS.png);
 }
+section#top-anime .side.items .item.rank1 .inner .rank
+{
+    background-image: url(https://i.imgur.com/Dm3Y6Jm.png);
+}
+.error-page .icon
+{
+    background-image: url(https://i.imgur.com/Ip9QZYI.png);
+}
+.modal#sign .modal-dialog.with-image .modal-content.login::before
+{
+    background-image: url(https://i.imgur.com/vGgwMAB.png);
+}
 body,
 body.index
 {
     background-color: #101112;
-    color: #dedede !important;
+    color: var(--white) !important;
 }
 header.fixed,
 header
@@ -85,30 +109,39 @@ section#schedule .body .more:hover,
 .donate-box .address .action > div,
 .dropdown-menu,
 .display-modes .mode,
-.display-modes .mode.active, .display-modes .mode:focus, .display-modes .mode:focus-within, .display-modes .mode:hover,
+.display-modes .mode.active,
+.display-modes .mode:focus,
+.display-modes .mode:focus-within,
+.display-modes .mode:hover,
 .ani.items .no-item,
-.modal#sign .form-group .icon
+.modal#sign .form-group .icon,
+#search .search-popup .foot > a,
+#w-episodes .body .episodes.name ul li a,
+#w-media #w-player #player-wrapper #player .play
 {
-    color: #dedede;
+    color: var(--white);
 }
 .tooltipster-content,
 .meta.icons i.rating,
 .btn-secondary:active,
 .btn-secondary:focus,
 .btn-secondary:hover,
-.form-control
+.form-control,
+.ep-status.sub,
+.ep-status.sub > span
 {
-    color: #dedede !important;
+    color: var(--white) !important;
 }
 #search .search-popup .s-close:hover,
-.donate-box .address .action > div
+.donate-box .address .action > div,
+#w-media #w-player #player-wrapper #player .play
 {
-    border-color: #dedede;
+    border-color: var(--white);
 }
 .meta.icons i.rating,
 .btn-light2
 {
-    border-color: #dedede !important;
+    border-color: var(--white) !important;
 }
 .meta.icons i.quality,
 .tooltipster-content .actions .watch,
@@ -120,19 +153,17 @@ section#schedule .body .more:hover,
 header #user .placeholder,
 section#schedule .head .days .items .day .inner::after,
 #w-player #w-servers .servers .type ul li:hover,
-.tooltip-inner,
 .btn-light2,
-.custom-switch .custom-control-label::after,
 .btn-light,
-.arrow
+
+
 {
-    background: #dedede !important;
+    background: var(--white) !important;
 }
 .head-box .actions .filter,
 section.top-table .body .items .item .info .meta span,
 section#schedule .head .now,
 section#schedule .head .days .items .day .inner,
-section#schedule .body .items a.old,
 .tabs .tab,
 .scaff.items .item .info .meta,
 footer .azlist .head .desc,
@@ -184,14 +215,20 @@ section#schedule .body .more,
 #w-episodes .body .episodes.name ul li a:visited,
 .side.items .item .info .meta .score,
 .list-info,
-.display-modes .mode
+.display-modes .mode,
+span.rating,
+section#schedule .body .items a.item.old
 {
-    color: #666;
+    color: var(--grey);
 }
 .tabs .tab:hover,
 .w2g-item .room .info .created time::before
 {
-    background: #666;
+    background: var(--grey);
+}
+span.rating
+{
+    border-color: var(--grey);
 }
 .ani.items .item .poster .meta,
 section.top-table .body .items .item,
@@ -224,42 +261,178 @@ section#schedule .body .more,
 {
     background: #141517;
 }
-section#schedule .body .items a:hover,
 .w2g-item:hover > .inner,
 .user-actions
 {
     background: #1a1c1f;
 }
-section#schedule .body .items a.old .ep
+section#schedule .body .items a.item:hover,
+section#schedule .body .more:hover
 {
     background: #18191c;
 }
-#w-info .brating .rating .score .value
+section#top-anime .side.items .item:hover .info .name,
+a,
+#w-player #w-servers .tip b,
+.scaff.items .item:hover .info .name,
+.room-chat .body .messages .message .msg-body .user,
+.meta.icons .ep
 {
-    color: #16b6f8;
+    color: var(--lightblue);
 }
-section#schedule .body .items a:hover .ep,
-.tabs .tab.active:hover
+.btn-primary,
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before
 {
-    background: #16b6f8;
+    background: var(--lightblue);
+}
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before
+{
+    border-color: var(--lightblue);
+}
+#w-info .brating .rating .score .value,
+header .main-menu:hover,
+header .main-menu:hover .icon,
+header .main-menu:hover i,
+.top-profile .notify .toggler:hover,
+section .head .more:hover,
+.ani.items .item .info .name:hover,
+a:hover,
+section.top-table .body .items .item:hover .info .name,
+section.top-table .head a.title:hover,
+.user-info .level,
+.watchlist.items .item .info .name a:hover,
+.dropdown-menu > .active > label,
+.dropdown-menu > .active > label:focus,
+.dropdown-menu > .active > label:hover,
+.dropdown-menu > li > input:checked ~ label,
+.dropdown-menu > li > input:checked ~ label:focus,
+.dropdown-menu > li > input:checked ~ label:hover,
+.dropdown-menu > li > label:hover,
+.user-actions a:hover,
+.dropdown-item.active,
+.dropdown-item:active,
+footer .inline-links ul li a:hover,
+#i-wrapper ul#i-menu li a:hover,
+section#schedule .body .items a.item:hover .title,
+.tooltipster-sidetip .tooltipster-content .title,
+.user-notification .body-box .items .item .text-focus,
+.user-notification .body-box .items .item .highlight,
+.user-notification .body-box .items .item.old .highlight
+{
+    color: var(--blue);
+}
+.text-primary
+{
+    color: var(--blue) !important;
+}
+section#schedule .body .items a.item:hover .ep,
+.tabs .tab.active:hover,
+.btn-primary,
+.swiper-pagination-bullet-active,
+.tabs .tab.active,
+#w-episodes .body .episodes.number ul li a.active,
+#w-episodes .body .episodes.number ul li a.active:visited,
+#w-player #w-servers .servers .type ul li.active,
+footer .azlist ul li a:hover,
+#w-episodes .body .episodes.name ul li a.active,
+#w-episodes .body .episodes.name ul li a.active:visited,
+.top-profile .notify .toggler.active::before,
+.page-item.active .page-link,
+#w-player #controls .dropdown-menu.skiptime li .input .block .line::after,
+#w-player #controls .dropdown-menu.skiptime li .input .block .line::before,
+#w-media #w-player #player-wrapper #player .play,
+.custom-control-input:checked ~ .custom-control-label::before,
+header #user .sign-in,
+.room-chat .body .messages .message.self .msg-body .text
+{
+    background: var(--blue);
 }
 .tooltipster-content .actions .watch:hover,
 #w-player #w-servers .servers .type ul li.active:hover
 {
-    background: #16b6f8 !important;
+    background: var(--blue) !important;
+}
+.btn-primary,
+.custom-control-input:checked ~ .custom-control-label::before,
+section#top-anime .side.items .item.rank1 .inner,
+.page-item.active .page-link,
+.page-link:hover,
+#w-player #controls .dropdown-menu.skiptime li .input .block .line,
+#w-seasons .seasons .season a:hover::after,
+#w-seasons .seasons .season.active a::after
+{
+    border-color: var(--blue);
+}
+#w-episodes .body .episodes.number ul li a.highlight,
+.user-edit-avatar span,
+.avatar.items .item span.active,
+.avatar.items .item span:hover
+{
+    outline-color: var(--blue);
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:hover,
+.btn-primary.focus,
+.btn-primary:focus,
+header #user .sign-in:hover,
+.ani.items .item .poster .meta.playing .progress > span,
+.ep-status.sub,
+.ep-status.sub::before
+{
+    background: var(--darkblue);
+}
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary.focus,
+.btn-primary:focus,
+header #user .sign-in:hover
+{
+    border-color: var(--darkblue);
+}
+#w-episodes .body .episodes.number ul li a:visited
+{
+    background: #0d2430;
 }
 .tooltipster-content .meta-bl > div span:first-child,
 .user-notification .body-box .items .no-result,
 .text-light,
 .btn-light
 {
-    color: #666 !important;
+    color: var(--grey) !important;
 }
 .btn-light2:hover,
 .btn-light:hover,
-.btn-primary
+.btn-primary,
+#hotest .item .info .actions .btn.play,
+#hotest .item .info .actions .btn.play:hover,
+.tabs .tab.active,
+.page-item.active .page-link,
+footer .azlist ul li a:hover,
+section#schedule .body .items a.item:hover .ep,
+.tooltipster-sidetip .tooltipster-content .actions .watch:hover,
+header #user .sign-in,
+.btn:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+#w-player #w-servers .servers .type ul li.active,
+.room-chat .body .messages .message.self .msg-body .text,
+#w-episodes .body .episodes.number ul li a.active,
+#w-episodes .body .episodes.number ul li a.active:visited,
+#w-episodes .body .episodes.name ul li a.active,
+#w-episodes .body .episodes.name ul li a.active:visited
 {
-    color: #333;
+    color: #111;
 }
 .switch > span.active,
 .switch > span:hover
@@ -272,7 +445,8 @@ header #menu > ul,
 .top-profile .notify .user-notification,
 #search .search-popup .foot,
 #w-seasons .seasons .season a::before,
-.modal-content
+.modal-content,
+#search .search-popup .body .items .item:nth-child(2n+1)
 {
     background-color: #282828;
 }
@@ -284,7 +458,12 @@ header #menu > ul,
 .dropdown-item:focus,
 .dropdown-item:hover,
 .user-notification .body-box .items .item:nth-child(2n),
-.dropdown-item.active, .dropdown-item:active
+.dropdown-item.active,
+.dropdown-item:active,
+#search .search-popup .body .items .item.active,
+#search .search-popup .body .items .item:focus,
+#search .search-popup .body .items .item:focus-within,
+#search .search-popup .body .items .item:hover
 {
     background: #303030;
 }
@@ -293,8 +472,7 @@ header #menu > ul,
 {
     background-color: #282828 !important;
 }
-.user-notification .body-box .items .item:hover,
-.custom-switch .custom-control-input:checked ~ .custom-control-label::after
+.user-notification .body-box .items .item:hover
 {
     background: #3d3d3d !important
 }
@@ -336,7 +514,8 @@ header #menu > ul > li:focus-within > a,
 header #menu > ul > li:focus > a,
 header #menu > ul > li:hover > a,
 .dropdown-item:focus,
-.dropdown-item:hover
+.dropdown-item:hover,
+#search .search-popup .foot > a:hover
 {
     color: #fff;
 }
@@ -345,23 +524,10 @@ header #menu > ul > li:hover > a,
     background-color: #474747;
     border-color: #474747;
 }
-section#top-anime .side.items .item.rank9 .inner .rank,
-section#top-anime .side.items .item.rank8 .inner .rank,
-section#top-anime .side.items .item.rank7 .inner .rank,
-section#top-anime .side.items .item.rank6 .inner .rank,
-section#top-anime .side.items .item.rank5 .inner .rank,
-section#top-anime .side.items .item.rank4 .inner .rank,
-section#top-anime .side.items .item.rank3 .inner .rank,
-section#top-anime .side.items .item.rank2 .inner .rank,
-section#top-anime .side.items .item.rank1 .inner .rank
-{
-    filter: grayscale(100%);
-}
 .custom-file-label::after
 {
     background-color: #5e5e5e;
 }
-/*W2G Specific*/
 .w2g-item .screen .bg::after,
 .w2g-item .screen .time
 {
@@ -376,10 +542,11 @@ section#schedule .body .items a .ep
 {
     background: #262729;
 }
-section#schedule .body .items a:hover,
 .w2g-item:hover > .inner,
 .page-link:hover,
-section#schedule .body .more:hover
+
+
+
 {
     background: #2c2d2e;
 }
@@ -393,8 +560,6 @@ section#schedule .body .more:hover
     background-color: #dedede;
     border-color: #dedede;
 }
-/*End W2G*/
-/*Player Specific*/
 .bsharing,
 #w-player #w-servers .servers,
 #w-player #controls,
@@ -431,7 +596,6 @@ section#schedule .body .more:hover
 }
 .form-control,
 .custom-file-label,
-.custom-control-label::before,
 .custom-file-label,
 .custom-select
 {
@@ -454,14 +618,34 @@ section#schedule .body .more:hover
 {
     background: #262626;
 }
-/*End Player*/
 footer
 {
     background: #0f0f0f;
 }
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after
+{
+    filter: brightness(0);
+}
+.adx
+{
+    display: none;
+}
 body,
 html
 {
-    scrollbar-color: #16b6f8 #101112;
+    scrollbar-color: #3db4f2 #101112;
+    scrollbar-width: thin;
+}
+::-webkit-scrollbar
+{
+    width: 9px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: #3db4f2;
+}
+::-webkit-scrollbar-track
+{
+    background: #202125;
 }
 }
