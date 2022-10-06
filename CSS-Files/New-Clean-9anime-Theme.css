@@ -154,9 +154,7 @@ header #user .placeholder,
 section#schedule .head .days .items .day .inner::after,
 #w-player #w-servers .servers .type ul li:hover,
 .btn-light2,
-.btn-light,
-
-
+.btn-light
 {
     background: var(--white) !important;
 }
@@ -543,10 +541,7 @@ section#schedule .body .items a .ep
     background: #262729;
 }
 .w2g-item:hover > .inner,
-.page-link:hover,
-
-
-
+.page-link:hover
 {
     background: #2c2d2e;
 }
