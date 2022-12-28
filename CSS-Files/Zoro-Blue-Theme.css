@@ -4,7 +4,7 @@
 {
 	height: 40px;
 	width: 132px;
-	background-image: url('https://files.catbox.moe/74pq45.png') !important;
+	background-image: url('https://i.imgur.com/IMPB4uv.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -12,7 +12,7 @@
 {
 	height: 50px;
 	width: 165px;
-	background-image: url('https://files.catbox.moe/74pq45.png') !important;
+	background-image: url('https://i.imgur.com/IMPB4uv.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -20,7 +20,7 @@
 {
 	height: 60px;
 	width: 198px;
-	background-image: url('https://files.catbox.moe/74pq45.png') !important;
+	background-image: url('https://i.imgur.com/IMPB4uv.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -28,7 +28,7 @@
 {
 	height: 40px;
 	width: 132px;
-	background-image: url('https://files.catbox.moe/74pq45.png') !important;
+	background-image: url('https://i.imgur.com/IMPB4uv.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -195,7 +195,9 @@ ul.az-list li.active a,
 .avatar-list .item .checked,
 #slider .sc-detail .scd-item .quality,
 .swiper-button:hover,
-.toggle-onoff > span
+.toggle-onoff > span,
+.nc-list .item.item-pin .is-pin,
+body.xmas-ui .ss-list.ss-list-min .ssl-item.active
 {
 	background: #3db4f2 !important;
 }
@@ -303,7 +305,8 @@ a:hover,
 .wideview-grid .grid-item .item:hover .btn-blank,
 .cd-article .cda-bottom .btn:hover,
 .cd-article .cda-bottom .btn.active.btn-upvote,
-.hr-community .btn i
+.hr-community .btn i,
+.nc-list .item .is-vote.is-vote-new a.active, .nc-list .item .is-vote.is-vote-new a:hover
 {
 	color: #3db4f2;
 }
@@ -365,6 +368,29 @@ a:hover,
 .nav-tabs-simple .nav-link.active
 {
 	border-color: #3db4f2 !important;
+}
+/* Temp christmas changes */
+body.xmas-ui .btn-tab.active, body.xmas-ui .pre-tabs-min .nav-item .nav-link.active, body.xmas-ui .ps__-list .item .btn.active, body.xmas-ui .swiper-button:hover, body.xmas-ui .table_schedule .table_schedule-date .tsd-item.active, body.xmas-ui .table_schedule .table_schedule-list li:hover .film-detail .fd-play .btn-play, body.xmas-ui .trending-navi > div:hover
+{
+    background: #3db4f2 !important;
+	border-color: #3db4f2 !important;
+}
+/* Gets rid of Ads. Some cannot be removed because of inline values, only moved/turned invisible, so if you see anything messed up please let me know) */
+#vi-smartbanner,
+vli.adsbyvli,
+.mba-block
+{
+    display: none !important;
+}
+div.adsbyvli:nth-child(2),
+#main-wrapper > div:nth-child(3),
+div.adsbyvli:nth-child(5),
+#main-content > div:nth-child(3),
+div.adsbyvli:nth-child(8),
+div.adsbyvli:nth-child(1)
+{
+    filter: opacity(0);
+    position: fixed !important;
 }
 /* Makes site scrollbars blue and thin  */
 *
