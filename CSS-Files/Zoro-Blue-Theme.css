@@ -1,10 +1,10 @@
-@-moz-document url-prefix("https://zoro.to") {
+@-moz-document url-prefix("https://zoro.to"), url-prefix("https://zoro.moe"), url-prefix("https://zoro.sx"), url-prefix("https://zoro.pm"), url-prefix("https://sanji.to"), url-prefix("https://aniwatch.to") {
 /* Makes main zoro logos blue */
 #header #logo
 {
 	height: 40px;
 	width: 132px;
-	background-image: url('https://i.imgur.com/IMPB4uv.png') !important;
+	background-image: url('https://i.imgur.com/rPQITEO.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -12,7 +12,7 @@
 {
 	height: 50px;
 	width: 165px;
-	background-image: url('https://i.imgur.com/IMPB4uv.png') !important;
+	background-image: url('https://i.imgur.com/rPQITEO.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -20,7 +20,7 @@
 {
 	height: 60px;
 	width: 198px;
-	background-image: url('https://i.imgur.com/IMPB4uv.png') !important;
+	background-image: url('https://i.imgur.com/rPQITEO.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -28,7 +28,7 @@
 {
 	height: 40px;
 	width: 132px;
-	background-image: url('https://i.imgur.com/IMPB4uv.png') !important;
+	background-image: url('https://i.imgur.com/rPQITEO.png') !important;
 	background-size: cover;
 	background-position: center center;
 }
@@ -77,7 +77,8 @@ body.livestream_body #search,
 {
 	background-color: rgb(18, 18, 18) !important;
 }
-.ls___-detail
+.ls___-detail,
+#room-detail
 {
 	background: rgb(28, 28, 28);
 }
@@ -185,7 +186,6 @@ ul.az-list li.active a,
 .ss-list .ssl-item.active .ssli-btn .btn.btn-circle,
 .ss-list.ss-list-min .ssl-item.active,
 .hs-toggles .hst-item .toggle-onoff > span,
-.toggle-lang > span.en,
 .toggle-lang.off > span.jp,
 .trending-navi > div:hover,
 .choose-type .pre-tabs-min .nav-item .nav-link.active,
@@ -200,6 +200,12 @@ ul.az-list li.active a,
 body.xmas-ui .ss-list.ss-list-min .ssl-item.active
 {
 	background: #3db4f2 !important;
+}
+.toggle-lang > span.en,
+.livestream_body .block_area .block_area-header .bah-sort .bhs-item.active .bhsi-name,
+.anw-tabs .nav-item .nav-link.active
+{
+    background: #3db4f2;
 }
 .ss-list.ss-list-min .ssl-item:visited
 {
@@ -242,7 +248,6 @@ body.xmas-ui .ss-list.ss-list-min .ssl-item.active
 .btn-sm.nl-item-btn:hover,
 .btn-sm.btn-filter-item.active,
 .block_area .block_area-header .cat-heading,
-.anw-tabs .nav-item .nav-link.active,
 .film-poster-ahref i,
 .film-poster-ahref:before,
 .pre-pagination .pagination .page-item .page-link:hover,
@@ -293,7 +298,10 @@ span#AddMalDiv #AddMal,
 .cw_l-line .ibody p a.tag-name,
 .cw_l-line .ibody p a.player-time,
 .os-list .os-item.active .title,
-.trending-list .item .number span
+.trending-list .item .number span,
+.t_c-chatlist .is-wrap .item > div.detail .options .btn,
+.t_c-input .is-textarea .is-emo.show .cb-icon,
+.ss-list .ssl-item.active .ssli-detail .ep-name, .ss-list .ssl-item:hover .ssli-detail .ep-name
 {
 	color: #3db4f2 !important;
 }
@@ -306,13 +314,18 @@ a:hover,
 .cd-article .cda-bottom .btn:hover,
 .cd-article .cda-bottom .btn.active.btn-upvote,
 .hr-community .btn i,
-.nc-list .item .is-vote.is-vote-new a.active, .nc-list .item .is-vote.is-vote-new a:hover
+.nc-list .item .is-vote.is-vote-new a.active, .nc-list .item .is-vote.is-vote-new a:hover,
+.t_c-noti .is-reply .is-icon,
+#top_chat .t_c-pin .is-pin .pin-text .sub .pin-name,
+#room-detail .rd-anime span,
+.ls___-detail .live-owner .user-created .status.is-on
 {
 	color: #3db4f2;
 }
 #discussion .pre-tabs .nav-item .nav-link.active,
 .os-list .os-item.active,
-.wv-item .wv-loadmore .btn:hover
+.wv-item .wv-loadmore .btn:hover,
+.preform .d-verify.is-yes .span-v
 {
 	color: #3db4f2 !important;
 	border-color: #3db4f2 !important;
@@ -321,7 +334,8 @@ a:hover,
 .btn-focus:hover,
 .btn-primary:hover,
 .btn-tab.active:hover,
-.hr-donate .btn
+.hr-donate .btn,
+.anw-tabs .nav-item .nav-link.active
 {
 	color: black;
 }
@@ -361,18 +375,13 @@ a:hover,
 .choose-thumbnail .lv-list .item.active,
 .share-buttons .share-buttons-block .sbb-title,
 .pre-tabs .nav-item .nav-link.active,
-.btn-sm.btn-filter-item.active
+.btn-sm.btn-filter-item.active,
+.t_c-chatlist .is-wrap .item > div.detail .is-subject .reply
 {
 	border-color: #3db4f2;
 }
 .nav-tabs-simple .nav-link.active
 {
-	border-color: #3db4f2 !important;
-}
-/* Temp christmas changes */
-body.xmas-ui .btn-tab.active, body.xmas-ui .pre-tabs-min .nav-item .nav-link.active, body.xmas-ui .ps__-list .item .btn.active, body.xmas-ui .swiper-button:hover, body.xmas-ui .table_schedule .table_schedule-date .tsd-item.active, body.xmas-ui .table_schedule .table_schedule-list li:hover .film-detail .fd-play .btn-play, body.xmas-ui .trending-navi > div:hover
-{
-    background: #3db4f2 !important;
 	border-color: #3db4f2 !important;
 }
 /* Gets rid of Ads. Some cannot be removed because of inline values, only moved/turned invisible, so if you see anything messed up please let me know) */
@@ -381,16 +390,6 @@ vli.adsbyvli,
 .mba-block
 {
     display: none !important;
-}
-div.adsbyvli:nth-child(2),
-#main-wrapper > div:nth-child(3),
-div.adsbyvli:nth-child(5),
-#main-content > div:nth-child(3),
-div.adsbyvli:nth-child(8),
-div.adsbyvli:nth-child(1)
-{
-    filter: opacity(0);
-    position: fixed !important;
 }
 /* Makes site scrollbars blue and thin  */
 *
